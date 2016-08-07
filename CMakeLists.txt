@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.0)
 
 project ( dcp2p )
 
-# find_package( Boost COMPONENTS thread system date_time regex asio array signals )
+find_package( Boost COMPONENTS thread system date_time regex asio array signals )
 
 set( EXECUTABLE_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/build" )
 set( LIBRARY_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/build" )
